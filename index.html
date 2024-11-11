@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Celcius to Fahrenheit</h2>
+
+<p>Insert a number into one of the input fields below:</p>
+
+<p><input id="c" onkeyup="convert('C')"> degrees Celsius</p>
+
+<p><input id="f" onkeyup="convert('F')"> degrees Fahrenheit</p> 
+
+
+
+<!-- Age Verification-->
+<div class="contatiner">
+
+<h2>Age verification</h2>
+
+    <label>Enter your age</label>
+    <input 
+    type=" number" id="ageInput"/>
+
+    <button onclick="verifyAge()">Verify Age</button> 
+
+    <div class="result" id="result"></div>
+
+
+
+
+
+<!-- Simple Calculator -->
+
+<h2> Simple Calculator</h2>
+
+<!-- Input fields for the two number -->
+   
+    <P>Enter the first number</P>
+    <input type="number" id="num1">
+
+     <P>Enter the second number</P>
+    <input type="number" id="num2">
+
+<!-- dropdown for selection operation -->
+
+    <P>Select an operation</P>
+    <select id="operation">
+        <option value="add">Addition (+)</option>
+        <option value="substract">Substraction (-)</option>
+        <option value="multiply">multiplication (*)</option>
+        <option value="divide">Division (/)</option>
+    </select>
+
+<!--button to calculate the result -->
+    <button onclick="calculate()">Calculate</button>
+
+<!-- display result-->
+    <p id="result"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<script src="script.js"></script>
+</body>
+
+</html>
